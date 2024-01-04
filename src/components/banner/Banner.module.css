@@ -1,0 +1,16 @@
+.banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    /* background-image: linear-gradient(90deg, #000000 -100%,rgba(0,0,0,0) 30%); */
+}
+
+.banner > h1{
+    margin-left: 32px;
+    margin-bottom: 24px;
+}
+
+.text{
+    margin-top: 132px;
+}

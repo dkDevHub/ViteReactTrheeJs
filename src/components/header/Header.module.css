@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    border-bottom: 2px solid;
+    padding: 8px 32px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.header > div{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    font-weight: 600;
+    flex: 1;
+}
+.logo_title{
+    margin-left: 8px;
+    
+}
+
+.search{
+    flex: 1;
+    margin: 0 24px;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.btn > * {
+    margin-left: 8px;
+}
